@@ -14,3 +14,19 @@ console.log(numberArr);
 // ===>Q   u   e   s   t   i   o   n     5 <====
 var booleanArr = [true, false]
 console.log(booleanArr);
+// ===>Q   u   e   s   t   i   o   n     6 <====
+var mixArr = ["Khadija", true, "787", 10, "Ali"]
+console.log(mixArr);
+// ===>Q   u   e   s   t   i   o   n     7 <====
+var pakEducation = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M Phil", "PhD"];
+
+document.write(pakEducation[0] + "<br>");
+document.write(pakEducation[1] + "<br>");
+document.write(pakEducation[2] + "<br>");
+document.write(pakEducation[3] + "<br>");
+document.write(pakEducation[4] + "<br>");
+document.write(pakEducation[5] + "<br>");
+document.write(pakEducation[6] + "<br>");
+document.write(pakEducation[7] + "<br>");
+
+// ===>Q   u   e   s   t   i   o   n     8 <====
