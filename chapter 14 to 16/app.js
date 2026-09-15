@@ -99,11 +99,37 @@ document.write(`String : <br> ${catJoin}`)
 
 
 // ===>Q   u   e   s   t   i   o   n     13 <====
+document.write("Devices : <br>")
+var arr = ["keyboard", "mouse", "printer", "monitor"]
+document.write(arr)
+document.write(`<br> Out : <br> ${arr[0]} <br> `)
+document.write(`<br> Out : <br> ${arr[1]} <br> `)
+document.write(`<br> Out : <br> ${arr[2]} <br> `)
+document.write(`<br> Out : <br> ${arr[3]} <br> `)
+
 
 // ===>Q   u   e   s   t   i   o   n     14 <====
+document.write("Devices : <br>")
+var arr = ["keyboard", "mouse", "printer", "monitor"]
+document.write(arr)
+document.write(`<br> Out : <br> ${arr[3]} <br> `)
+document.write(`<br> Out : <br> ${arr[2]} <br> `)
+document.write(`<br> Out : <br> ${arr[1]} <br> `)
+document.write(`<br> Out : <br> ${arr[0]} <br>`)
 
 // ===>Q   u   e   s   t   i   o   n     15 <====
+var mobile = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"]
 
+document.write("<select>")
+
+document.write(`<option>${mobile[0]}</option>`)
+document.write(`<option>${mobile[1]}</option>`)
+document.write(`<option>${mobile[2]}</option>`)
+document.write(`<option>${mobile[3]}</option>`)
+document.write(`<option>${mobile[4]}</option>`)
+document.write(`<option>${mobile[5]}</option>`)
+
+document.write("</select>")
 
 
 
