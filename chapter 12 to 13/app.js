@@ -66,12 +66,30 @@ else {
 document.write("<br>")
 
 // ===> Q   u   e   s   t   i   o   n     6  <====
-
+var hour = 13;
+if (hour < 18) {
+    greeting = "Good day";
+}
+else { greeting = "Good evening"; }
+document.write(greeting);
 
 document.write("<br>")
 
 // ===> Q   u   e   s   t   i   o   n     7  <====
+var time = +prompt("Enter time in 24-hour forma")
+if (time >= 0 && time < 1200) {
+    document.write("Good Morning")
+}
+else if (time >= 1200 && time < 1700) {
+    document.write("Good Afternoon")
+}
+
+else if (time >= 1700 && time < 2100) {
+    document.write("Good Evening")
+}
+else if (time >= 2100 && time <= 2359) {
+    document.write("Good Night")
+}
 
 document.write("<br>")
 
-// ===> Q   u   e   s   t   i   o   n     8  <====
