@@ -18,5 +18,106 @@ for (var table = 1; table <= multiply; table++) {
     document.write(`${user} * ${table} = ${user * table} <br>`)
 }
 // =====>  Q  U  E  S  T  I  O  N      5  <=====
-
+var fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"]
+document.write(fruits[0] + "<br>")
+document.write(fruits[1] + "<br>")
+document.write(fruits[2] + "<br>")
+document.write(fruits[3] + "<br>")
+document.write(fruits[4] + "<br>")
+for (var i = 0; i < fruits.length; i++) {
+    document.write("Element at index " + i + " is " + fruits[i] + "<br>")
+}
 // =====>  Q  U  E  S  T  I  O  N      6  <=====
+document.write("<h3>COUNTING</h3>")
+for (var i = 1; i <= 15; i++) {
+    document.write(i + " , ")
+}
+document.write("<h3>REVERSE COUNTING</h3>")
+for (var i = 15; i >= 15; i--) {
+    document.write(i + " , ")
+
+}
+
+document.write("<h3>EVEN</h3>")
+for (var i = 0; i <= 20; i += 2) {
+    document.write(i + " , ")
+
+}
+document.write("<h3>ODD</h3>")
+for (var i = 1; i <= 20; i += 2) {
+    document.write(i + " , ")
+
+}
+
+document.write("<h3>SERIES</h3>")
+
+for (var i = 0; i <= 20; i += 2) {
+    document.write(i + "k" + " , ")
+
+}
+document.write("<br>")
+
+// =====>  Q  U  E  S  T  I  O  N      7  <=====
+var user = prompt("Welcome to my bakery! What do you want to order sir/ma'am")
+
+var cookies = ["cake", "applepie", "cookies", "chips", "patties"]
+
+var flag = false
+
+for (var i = 0; i < cookies.length; i++) {
+
+    if (user === cookies[i]) {
+
+        flag = true
+
+        document.write(user + " is available at index " + i + " in our bakery")
+
+    }
+
+}
+
+if (flag === false) {
+
+    document.write("We are sorry! " + user + " is not available in our bakery")
+
+}
+document.write("<br>")
+// =====>  Q  U  E  S  T  I  O  N      8  <=====
+
+var arr = [24, 53, 78, 91, 12]
+
+var largest = arr[0]
+
+for (var i = 1; i < arr.length; i++) {
+
+    if (arr[i] > largest) {
+
+        largest = arr[i]
+
+    }
+
+}
+document.write("Array Items : " + arr  + "<br>")
+
+document.write("Largest Number is: " + largest)
+document.write("<br>")
+
+// =====>  Q  U  E  S  T  I  O  N      9  <=====
+
+var low = [24, 53, 78, 91, 12]
+var lowestNum = low[0]
+for (var i = 0; i < low.length; i++) {
+    if (low[i] < lowestNum) {
+        lowestNum = low[i]
+
+    }
+}
+document.write("Array Items : " + low + "<br>")
+document.write("Lowest Number is: " + lowestNum)
+document.write("<br>")
+
+// =====>  Q  U  E  S  T  I  O  N      10  <=====
+document.write("<br>")
+for (var i = 5; i <= 100; i += 5) {
+    document.write(i + " , ")
+}
