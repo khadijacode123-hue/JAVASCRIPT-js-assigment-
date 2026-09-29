@@ -152,21 +152,68 @@
 
 // ===>  Q   U   E   S   T   I   O   N     15 <===
 
+// var pass = prompt("Enter your password")
+// var hasAlpha = false
+// var hasNum = false
+// var hasStartNum = false
+// for (var i = 0; i < pass.length; i++) {
+//     password = pass[i].charCodeAt(0)
+//     if ((password >= 65 && password <= 90) || (password >= 97 && password <= 122)) {
+//         hasAlpha = true
+
+//     }
+//     if (password >= 48 && password <= 57) {
+//         hasNum = true
+//     }
+
+// }
+// if (pass[0].charCodeAt(0) >= 48 && pass[0].charCodeAt(0) <= 57) {
+//    hasStartNum = true
+
+// }
+// if (pass.length < 6) {
+//     alert("It must at least 6 characters long")
+// }
+// if (!hasAlpha) {
+//     alert("Alphabets must contain in password")
+// }
+// if (!hasNum) {
+//     alert("Numbers must contain in password")
+// }
+// if (hasStartNum) {
+//     alert("It should not start with a number")
+// }
 
 // ===>  Q   U   E   S   T   I   O   N     16 <===
-var arr = "University of Karachi"
-var arrSplit = arr.split("")
-for (var i = 0; i < arrSplit.length; i++) {
-    document.write(arrSplit[i] + "<br>")
 
-}
+// var arr = "University of Karachi"
+// var arrSplit = arr.split("")
+// for (var i = 0; i < arrSplit.length; i++) {
+//     document.write(arrSplit[i] + "<br>")
+
+// }
 
 // ===>  Q   U   E   S   T   I   O   N     17 <===
-var user = prompt("Enter a Character")
-var userInp = user[user.length - 1]
-
-document.write(`User Input : ${user} <br> Last Character of Input : ${userInp} <br>`)
-// ===>  Q   U   E   S   T   I   O   N     18 <===
 
 
+// var user = prompt("Enter a Character")
+// var userInp = user[user.length - 1]
+// document.write(`User Input : ${user} <br> Last Character of Input : ${userInp} <br>`)
+
+
+// // ===>  Q   U   E   S   T   I   O   N     18 <===
+
+
+// var sentence = "the quick brown fox jumps the over the lazy dog"
+// var senSplit = sentence.toLowerCase().split(" ")
+// var count = 0
+// for (var i = 0; i < senSplit.length; i++) {
+
+//     if (senSplit[i] === "the") {
+//         count++
+//         document.write(`TExt : ${sentence} <br>There are ${count} occurance of word 'the'`)
+//     }
+// }
+
+// document.write(`Text : ${sentence} <br>There are ${count} occurance of word 'the'`)
 
