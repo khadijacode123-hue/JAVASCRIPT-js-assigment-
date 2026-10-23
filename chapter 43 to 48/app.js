@@ -48,4 +48,3 @@
 //     span.innerText = count
 // }
 
-// ==> Q u e s t i o n  6 <==
