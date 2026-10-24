@@ -129,10 +129,111 @@
 
 // ==> Q u e s t i o n  7 <==
 
- 
+// function countVowelPairs() {
+//     var user = prompt("Enter sentence");
+//     var count = 0;
+
+//     for (var i = 0; i < user.length - 1; i++) {
+//         switch (user[i] + user[i + 1]) {
+//             case "ae":
+//             case "ai":
+//             case "ao":
+//             case "au":
+//             case "aa":
+//             case "ea":
+//             case "ee":
+//             case "ei":
+//             case "eo":
+//             case "eu":
+//             case "ia":
+//             case "ie":
+//             case "ii":
+//             case "io":
+//             case "iu":
+//             case "oa":
+//             case "oe":
+//             case "oi":
+//             case "oo":
+//             case "ou":
+//             case "ua":
+//             case "ue":
+//             case "ui":
+//             case "uo":
+//             case "uu":
+//                 count++;
+//                 document.write(user[i] +user[i+1] + "<br>")
+//                 break;
+//         }
+//     }
+
+//     document.write(user + " Total vowel pairs: " +  count);
+// }
+
+// countVowelPairs();
+
 
 // ==> Q u e s t i o n  8 <==
 
+
+// function diffrenceCities(km) {
+//     document.write("Distance: " + km + " kilometers<br>")
+
+//     function meters(km) {
+//         var meters = km * 1000
+//         return meters + " meters"
+//     }
+//     document.write(meters(km) + "<br>")
+
+//     function feet(km) {
+//         var feet = km * 3280.84
+//         return feet + " feet"
+//     }
+//     document.write(feet(km) + "<br>")
+
+//     function inches(km) {
+//         var inches = km * 39370.08
+//         return inches + " inches"
+//     }
+//     document.write(inches(km) + "<br>")
+
+//     function centimeters(km) {
+//         var centimeters = km * 100000
+//         return centimeters + " centimeters"
+//     }
+//     document.write(centimeters(km) + "<br>")
+// }
+
+// var user = +prompt("Enter distance between two cities in kilometers:")
+// diffrenceCities(user)
+
+
 // ==> Q u e s t i o n  9 <==
 
-// ==> Q u e s t i o n  10 <==
+// function overtimePay(totalHours) {
+//     var hours = 40
+//     var overTime = 12
+
+//     if (totalHours > hours) {
+//         var minus = totalHours - hours
+//         var res = minus * overTime
+//         document.write("Your overtime income is Rs. " + res)
+//     } else {
+//         document.write("Your overtime income is Rs. 0")
+//     }
+// }
+
+// var totalHours = Number(prompt("Enter total hours"))
+// overtimePay(totalHours)
+
+// // ==> Q u e s t i o n  10 <==
+
+// var withdraw = +prompt("Enter withdraw amount")
+// var hundred = Math.floor(withdraw / 100)
+// var hundredamount = withdraw % 100
+// var fifty = Math.floor(hundredamount / 50)
+// var fiftyamount = hundredamount % 50
+// var ten = Math.floor(fiftyamount / 10)
+// var tenamount = fiftyamount % 10
+
+
+// document.write(withdraw + "Rs You will have " + hundred + " hundreds notes " + fifty + " Fifty notes " +  ten + " Ten notes ." )
