@@ -1,0 +1,47 @@
+body {
+    background-color: rgba(219, 134, 134, 0.907);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.inc {
+    border: none;
+    background-color: antiquewhite;
+    color: maroon;
+    margin: 0 10px;
+    padding: 10px 16px;
+    border-radius: 16px;
+    font-size: 20px;
+
+
+}
+
+.dec {
+    border: none;
+    background-color: antiquewhite;
+    color: maroon;
+    margin: 0 10px;
+    padding: 10px 16px;
+    border-radius: 16px;
+    font-size: 20px;
+
+}
+
+#span {
+    padding: 10px 15px;
+    background-color: maroon;
+    color: antiquewhite;
+    font-size: 24px;
+
+}
+
+.card {
+    background-image: url(https://img.magnific.com/free-vector/red-hand-drawn-cherry-seamless-pattern-pink-social-template_53876-116104.jpg?semt=ais_hybrid&w=740&q=80);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px 100px;
+    border: 10px groove rgb(178, 101, 101);
+}
