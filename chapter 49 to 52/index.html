@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #editStudenForm{
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- ==> Question 1 <== -->
+    <!-- 
+    <div class="container">
+        <div class="form" id="form">
+            <label>
+                <input type="text" name="name" id="name" placeholder="Enter your Name">
+            </label>
+
+            <label>
+                <input type="email" name="mail" id="email" placeholder="Enter your Email">
+            </label>
+
+            <label> <input type="password" name="pass" id="password" placeholder="Enter Your Password">
+            </label>
+
+            <button type="submit" id="btn" onclick="preview()">Click Here</button>
+        </div>
+
+        <div id="card"></div>
+    </div> -->
+    <!-- ==> Question 2 <== -->
+
+    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2LQvKyzKYtINsPddeCSAUjjjZft-W9rvzDhIOg21-TLVvaFt3B--PrZA4&s=10" alt="Iphone Burgundy" id="img" width="300px" height="400px">
+    <p id="para">The Burgundy colorway is a premium signature shade introduced for the iPhone 18 Pro and iPhone 18 ProMax lineup. Described by tech reviewers as a deeply sophisticated, dark academia-inspired hue, this finish
+    shifts visually between rich wine-red, deep eggplant purple</p>
+    <a href="#" id="btn" onclick="see()">See More</a> -->
+
+    <!-- ==> Question 3 <== -->
+
+    <h2>Add Students</h2>
+    <form id="addStudentContainer" onsubmit="addStudent(event)">
+        <label>Name : <input type="text" name="" id="studentName"></label>
+        <label>Age : <input type="text" name="" id="studentAge"></label>
+        <button type="submit">Add Action</button>
+
+    </form>
+    <table border="10">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Edit /delete</th>
+            </tr>
+        </thead>
+
+        <tbody id="studentsTableBody">
+         
+
+        </tbody>
+    </table>
+
+    <div id="tableEditForm">
+        <h2>Edit Students Details</h2>
+        <form id="editStudenForm" onsubmit="saveChanges(event)">
+            <label><input type="text" name="" id="editName"></label>
+            <label><input type="text" name="" id="editAge"></label>
+            <button type="submit">Save Changes</button>
+            <button type="button" onclick="closeEditForm">Cancel</button>
+
+        </form>
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
