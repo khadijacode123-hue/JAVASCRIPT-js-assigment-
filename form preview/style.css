@@ -1,0 +1,254 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8eef5;
+    font-family: Arial, sans-serif;
+}
+
+#form {
+    width: 350px;
+    padding: 35px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.forms {
+    display: block;
+}
+
+#form label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+#form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+#form input:focus {
+    border-color: #6c63ff;
+}
+
+#form button {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#form button:hover {
+    background-color: #5148d8;
+}
+
+
+#card {
+    display: none;
+    width: 380px;
+    padding: 30px;
+    background: linear-gradient(135deg, #ffffff, #f3f0ff);
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(108, 99, 255, 0.2);
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    color: #626161;
+    border: 1px solid #e2ddff;
+    text-align: center;
+}
+
+#card button {
+    padding: 10px 22px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    width: 100%;
+}
+
+#card button:first-of-type {
+    background-color: #ff5c5c;
+    box-shadow: 0 4px 10px rgba(255, 92, 92, 0.25);
+}
+
+#card button:last-of-type {
+    background-color: #6c63ff;
+    box-shadow: 0 4px 10px rgba(108, 99, 255, 0.25);
+}
+
+#card button:hover {
+    transform: translateY(-3px);
+}
+
+#editForm{
+    display: none;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8eef5;
+    font-family: Arial, sans-serif;
+}
+
+/* Original Form & Edit Form */
+
+#form, #editForm {
+    width: 350px;
+    padding: 35px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Hide Edit Form Initially */
+
+#editForm {
+    display: none;
+}
+
+/* Labels */
+
+#form label, #editForm label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Inputs */
+
+#form input, #editForm input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+#form input:focus, #editForm input:focus {
+    border-color: #6c63ff;
+}
+
+/* Form Buttons */
+
+#form button, #editForm button {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#form button:hover, #editForm button:hover {
+    background-color: #5148d8;
+}
+
+/* Card Styling */
+
+#card {
+    display: none;
+    width: 380px;
+    padding: 30px;
+    background: linear-gradient(135deg, #ffffff, #f3f0ff);
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(108, 99, 255, 0.2);
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    color: #626161;
+    border: 1px solid #e2ddff;
+    text-align: center;
+}
+
+/* Card Buttons */
+
+#card button {
+    padding: 10px 22px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    width: 100%;
+}
+
+#card button:first-of-type {
+    background-color: #ff5c5c;
+    box-shadow: 0 4px 10px rgba(255, 92, 92, 0.25);
+}
+
+#card button:last-of-type {
+    background-color: #6c63ff;
+    box-shadow: 0 4px 10px rgba(108, 99, 255, 0.25);
+}
+
+#card button:hover {
+    transform: translateY(-3px);
+}

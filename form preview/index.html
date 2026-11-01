@@ -6,11 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
+    <form id="form" class="forms" onsubmit="formCard(event)">
+        <h2 style="text-align: center;">Your Details</h2>
+        <label for="name">Your Name : </label>
+        <input type="text" id="name" placeholder="Enter your Name">
 
+        <label for="age">Your Age : </label>
+        <input type="text" id="age" placeholder="Enter your Age">
+
+        <button type="submit">Submit</button>
+
+
+    </form>
+
+    <div id="card"></div>
+
+    <form id="editForm" class="editForms" onsubmit="editCard(event)">
+        <h2 style="text-align: center;">Edit Details</h2>
+        <label for="editName">Your Name : </label>
+        <input type="text" id="editName" placeholder="Enter your Name">
+
+        <label for="editAge">Your Age : </label>
+        <input type="text" id="editAge" placeholder="Enter your Age">
+
+        <button type="submit">Save Changes</button>
+        <button type="button" onclick="cancel(this)">Cancel</button>
+
+
+    </form>
     <script src="app.js"></script>
 </body>
 
