@@ -1,0 +1,40 @@
+.bgColor {
+    background-color: #b71c1c;
+}
+
+.lightClr {
+    background-color: #f5f5f5;
+    color: #b71c1c;
+    transition: 0.3s ease;
+
+}
+
+.lightClr:hover {
+    transform: scale(1.03);
+    background-color: #f5f5f5;
+    color: #b71c1c;
+}
+
+.postBtn {
+    transition: 0.3s ease;
+    background-color: #b71c1c;
+    color: #f5f5f5;
+}
+
+.postBtn:hover {
+    transform: scale(1.03);
+    background-color: #b71c1c;
+    color: #f5f5f5;
+}
+
+.swal2-confirm {
+    background-color: #b71c1c;
+    transition: 0.3s ease;
+
+
+}
+.swal2-confirm:hover {
+    background-color: #b71c1c;
+    transform: scale(0.9);
+
+}
