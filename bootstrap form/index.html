@@ -25,7 +25,7 @@
 
     <!-- CARDS ================ -->
     <div class="container">
-        <div class="row">
+        <div class="row" >
 
             <!-- post form == -->
             <div class="col-12 col-md-5 col-lg-4 mt-3">
@@ -38,6 +38,13 @@
                         <label for="exampleFormControlTextarea1" class="form-label">Description</label>
                         <textarea class="form-control" id="desc" rows="3"
                             placeholder="What's on your mind...'"></textarea>
+                    </div>
+                    <div class="d-flex bgimg justify-content-between mb-3">
+                        <img src="img/1.jfif" alt="" class="bg" onclick="selectedImg('img/1.jfif')">
+                        <img src="img/2.jfif" alt="" class="bg" onclick="selectedImg('img/2.jfif')">
+                        <img src="img/3.jfif" alt="" class="bg" onclick="selectedImg('img/3.jfif')">
+                        <img src="img/4.jfif" alt="" class="bg" onclick="selectedImg('img/4.jfif')">
+                        <img src="img/5.jfif" alt="" class="bg" onclick="selectedImg('img/5.jfif')">
                     </div>
                     <button class="btn postBtn" onclick="post()">Post</button>
                 </div>

@@ -33,8 +33,38 @@
 
 
 }
+
 .swal2-confirm:hover {
     background-color: #b71c1c;
     transform: scale(0.9);
 
+}
+
+.bg {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    flex-wrap: wrap !important;
+
+}
+
+.bg:hover {
+    width: 40px;
+    height: 40px;
+    transform: scale(0.9);
+
+}
+
+.selected {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 10px;
+    border: 2px solid maroon;
+}
+
+.card-body{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
